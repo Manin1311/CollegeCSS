@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link {
+            color: blue;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover {
+            color: yellow;
+        }
+
+        a:active {
+            color: pink;
+        }
+
+        input:focus {
+            background-color: lightgreen;
+            border: 2px solid green;
+            outline: none;
+        }
+
+        /*ul li:nth-child(2) {
+            font-style: italic;
+            font-size: 100px;
+            color: red;
+            margin-left: 50px;
+        }
+
+        ul li:not(.special) {
+            background-color: aqua;
+        }*/
+
+        p:not(.para1) {
+            background-color: pink;
+        }
+
+        .mg li:nth-child(1) {
+            color: red;
+        }
+
+        .tm li:nth-child(3) {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://www.google.com" class="link1">This is a link</a><br><br>
+    Firstname: <input type="text" placeholder="click here to focus">
+    <!-- <ul style="margin-left: 50px;">
+        <li>x</li>
+        <li>y</li>
+        <li>z</li>
+    </ul> -->
+    <ul>
+        <li>abc</li>
+        <li>xyz</li>
+        <li class="special">pqr</li>
+        <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, eius iste. Eligendi, expedita
+            nostrum.
+            Accusantium tenetur quo, commodi, consectetur praesentium porro dolorum, veritatis quasi exercitationem
+            rerum tempore eaque pariatur nesciunt?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores necessitatibus accusamus nulla
+            in nihil! Nulla, optio? Eaque optio accusamus possimus nobis, facilis officia esse omnis molestias rerum
+            accusantium! Repellendus, vero!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet qui obcaecati temporibus tempora doloremque
+            incidunt laudantium quia! Officiis porro minus eveniet quia, quo libero explicabo est, minima, ducimus esse
+            aut.</p>
+    </ul>
+    <ul class="mg">
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Banana</li>
+    </ul>
+
+    <ul class="tm">
+        <li>carrot</li>
+        <li>potato</li>
+        <li>tomato</li>
+    </ul>
+   
+
+</body>
+
+</html>

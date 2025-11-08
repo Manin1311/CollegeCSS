@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .para1::first-letter {
+            font-style: italic;
+            font-size: 50px;
+        }
+
+        .para2::first-line {
+            color: red;
+            background-color: pink;
+        }
+
+        .head::before {
+            content: "😀";
+            content: url(images.jfif);
+
+        }
+
+        .head::after {
+            content: "😀";
+        }
+
+        ul li::marker {
+            color: purple;
+        }
+
+        ::selection {
+            color: green;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolor blanditiis ducimus qui,
+        accusantium ipsam!
+        Iusto praesentium consectetur omnis error iste enim dolores voluptatem, maxime tempore repellat eos eius
+        repudiandae.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, labore repellat eveniet doloremque cumque
+        magnam omnis dolores consectetur, incidunt sapiente delectus. Doloribus ipsum officia corrupti vero omnis!
+        Officiis, ad consequatur.</p>
+
+    <p class="para2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias vitae ipsa error tempora optio.
+        Ipsam quidem voluptate voluptatibus inventore iste quam aspernatur, dolore magni explicabo aperiam repellendus
+        nam hic fuga.
+        Odit rem et fugiat hic unde? Reiciendis nam numquam fugit voluptatum ad possimus ducimus ea perferendis culpa
+        non. Optio labore vel itaque ex a, hic nulla cum laborum amet possimus.
+    </p>
+
+    <p class="head">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo debitis atque quam quisquam amet
+        animi suscipit nobis porro quos optio, neque laudantium enim eos corporis cumque voluptatem aperiam iusto sunt?
+        Molestias officia reiciendis aperiam perferendis fugit, quam error officiis aspernatur dicta cumque sit maxime
+        cum similique fuga explicabo rerum quae? Ex porro, sapiente ea officiis quaerat a consectetur sequi ullam?
+    </p>
+    <ul>
+        <li>list-1</li>
+        <li>list-2</li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --b: blue;
+            --all: solid dashed dotted;
+            --p20: 20px;
+            --x: gold;
+            --y: orangered;
+            --z: red;
+            --m: 50s;
+            --k: 90deg;
+
+        }
+
+        p:hover {
+            --c: center;
+            --b: brown;
+            border-style: var(--all);
+            padding: var(--p20);
+            border-color: var(--b);
+            background-color: var(--x);
+            color: var(--z);
+            transition: var(--m);
+            transform: rotate(var(--k));
+
+
+        }
+
+        h1 {
+            color: var(--b);
+            text-align: var(--c);
+            background-color: var(--y);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello</h1>
+    <p>Good Morning</p>
+</body>
+
+</html>

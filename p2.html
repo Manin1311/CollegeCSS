@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button:hover {
+            color: chocolate;
+        }
+
+        button:active {
+            color: chartreuse;
+        }
+
+        input:focus {
+            background-color: blue;
+        }
+
+        ol li:nth-child(1) {
+            color: red;
+            font-weight: bold;
+        }
+
+        ol li:not(.deleted) {
+            background-color: lightblue;
+            font-style: italic;
+
+        }
+
+
+        label:hover {
+            color: yellow;
+        }
+
+        label:active {
+            color: red;
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <!-- design a webpage that include
+     1.A button that changes its color when hover overed and when click
+     2.A text input filed that changes its background-color when its gains focus
+     3.An ordered list where the first list item style differently with red text color and bold fonts 
+     4.one of the list item a class named deleted and all other list items have light blue background and italic font-style
+     5. A checkbox that changes the color of its label and mix the label bold when checked-->
+
+    <button>Click me</button><br><br>
+    <input type="text" name="" id=""> <br>
+    <ol>
+        <li class="deleted">l-1</li>
+        <li>l-2</li>
+        <li>l-3</li>
+    </ol>
+
+
+
+    <input type="checkbox" id="agree">
+    <label for="agree">I agree on the T&C</label>
+
+    <input type="radio" id="agree1">
+    <label for="agree1">male</label>
+    <input type="radio" id="agree1">
+    <label for="agree1">female</label>
+    <input type="radio" id="agree1">
+    <label for="agree1">others</label>
+
+
+</body>
+
+</html>
